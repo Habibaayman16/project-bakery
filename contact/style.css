@@ -1,0 +1,263 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: #e0bf91;
+
+}
+hr{
+  
+  border: 1px solid black;
+}
+.header{
+  display: flex;
+  position: fixed;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  z-index: 1;
+  background-image: linear-gradient( #6d3c16,#512d0c8d);
+  padding: 20px 35px;
+  font-size: 40px;
+  
+    
+
+}
+.title{
+ padding: 0 20px;
+ color: rgb(3, 0, 0);
+ font-family: "Lobster", sans-serif;
+ font-weight: 300;
+ font-style: normal;
+ font-size: 40px;
+
+}
+.navbar{
+   overflow: hidden;
+   position: absolute;
+   right: 10px;
+   font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.navbar a{
+    display:block;
+    float: left;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 15px;
+    text-align: right;
+    font-size: 20px;
+
+}
+.navbar a:hover{
+    color: #fdfdfd;
+    background-color: rgb(203, 151, 107);
+    border-radius: 20px;
+}
+.contact-info {
+    background-color: hsl(28, 79%, 72%);
+    border-radius: 20px 50px 0px;
+    text-align: left;
+    color: white;
+    width: 250px;
+    height: 380px;
+}
+.contact-info h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+.contact-info p{
+    margin-bottom: 10px;
+    color:white;
+}
+.contact-info i{
+    color: #4caf50;
+    margin-right: 10px;
+    padding: 10px;
+
+}
+.d{
+    padding-top: 100px;
+    background-color: rgb(244, 220, 193);
+    width: 990px;
+    height: 610px;
+    
+  }
+  
+  .contact{
+      min-height: 90vh;
+      background-color: burlywood;
+      padding: 50px;
+      text-align: center;
+  }
+  .container{
+      max-width: 800px;
+      margin: auto;
+  }
+  .container h2{
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #333;
+  padding: 20px;
+  }
+  .contact-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 200px;
+}
+
+
+.contact-form{
+  text-align: left;
+}
+.contact-form h3{
+font-size: 25px;
+margin-bottom: 50px;
+color: #333;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+input,textarea{
+    width: 400px;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f8f9fa;
+    color: #333;
+}
+input:focus,
+textarea:focus{
+    outline: none;
+    box-shadow: 0 0 8px #bbb;
+}
+button{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #648746;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+button:hover{
+    background-color: #98b177;
+}
+.img{
+   
+    position: absolute;
+    right: 60px;
+    width: 400px;
+    height: 610px;
+    border-radius: 20px;
+}
+   
+
+
+.container{
+  max: width 1170px; 
+  margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  ul{
+    list-style: none;
+  }
+  .footer{
+    background-color:#9d6a3d;
+    padding: 70px 80px;
+  }
+  .footer-col{
+    width: 25%;
+    padding: 20PX 15px;
+  
+  }
+  
+  .footer-col h4{
+    font-size: 22px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: bold;
+    font-weight: 500px;
+    position: relative;
+   
+  }
+  .footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color:white;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  .footer-col p{
+    color: white;
+    width: 100%;
+  }
+  .footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+  }
+  .footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  .footer-col ul li a:hover{
+    color:#F7DCB9;
+    padding-left:8px ;
+    }
+    
+    .footer-col .sccial-link a{
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        background-color: white;
+        margin: 0px 10px 10px 0px;
+        text-align: center;
+        line-height:40px ;
+        border-radius: 50%;
+        color: black;
+        transition: all 0.5s ease;
+    }
+    .footer-col .sccial-link a:hover{
+        color: #DEAC80;
+        
+    } 
+    
+    .footerbotton{
+        background-color:#9d6a3d;
+        padding: 30px;
+        text-align: center;
+    }
+    .footerbotton p{
+      color: white;
+  }
+  .desiner{
+      opacity: 0.5;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 400;
+      margin: 0px 5px;
+  }  
+   
